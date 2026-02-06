@@ -1,0 +1,15 @@
+<svg width="200" height="140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="140" fill="#FFEBEE"/>
+  <g transform="translate(100,70)">
+    <!-- Meat cut -->
+    <ellipse cx="-15" cy="0" rx="18" ry="20" fill="#DC143C"/>
+    <ellipse cx="-15" cy="0" rx="15" ry="17" fill="#FF6347"/>
+    <ellipse cx="-12" cy="-5" rx="6" ry="8" fill="#FF7F7F" opacity="0.6"/>
+    <!-- Chicken leg -->
+    <ellipse cx="20" cy="5" rx="12" ry="18" fill="#DEB887"/>
+    <ellipse cx="20" cy="5" rx="10" ry="16" fill="#F5DEB3"/>
+    <ellipse cx="22" cy="20" rx="6" ry="8" fill="#D2B48C"/>
+    <rect x="18" y="25" width="4" height="8" fill="#8B7355" rx="2"/>
+  </g>
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">Fresh Meat</text>
+</svg>

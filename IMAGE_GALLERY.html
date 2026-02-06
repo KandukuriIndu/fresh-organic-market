@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshMart - Image Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            padding: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 42px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 18px;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .section h2 {
+            color: #764ba2;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #FF8C00;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+        .image-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .image-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            background: white;
+            padding: 10px;
+        }
+        .image-card h3 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .image-card p {
+            font-size: 13px;
+            color: #666;
+        }
+        .highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .highlight h2 {
+            color: white;
+            border: none;
+            margin-bottom: 15px;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 48px;
+            font-weight: bold;
+            color: #FFD700;
+        }
+        .stat-label {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .banner {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            display: block;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🥬 FreshMart Image Gallery 🍊</h1>
+        <p class="subtitle">All 21 Custom SVG Graphics Included in Your Template!</p>
+        
+        <div class="highlight">
+            <h2>✨ Everything You Need, Right Out of the Box!</h2>
+            <p>No need to search for images or hire a designer. All graphics are custom-designed, professional, and ready to use!</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">21</div>
+                    <div class="stat-label">SVG Images</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Web Pages</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Ready to Use</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="section">
+            <h2>🎨 Hero Banner Background</h2>
+            <img src="../assets/banner-bg.svg" alt="Banner Background" class="banner">
+        </div>
+
+        <!-- Features -->
+        <div class="section">
+            <h2>⭐ Feature Images (200x140px)</h2>
+            <div class="grid">
+                <div class="image-card">
+                    <img src="../assets/feature-img-1.svg" alt="Fresh & Organic">
+                    <h3>Fresh & Organic</h3>
+                    <p>Green leaf design</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/feature-img-2.svg" alt="Free Delivery">
+                    <h3>Free Delivery</h3>
+                    <p>Delivery truck icon</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/feature-img-3.svg" alt="Easy Payment">
+                    <h3>Easy Payment</h3>
+                    <p>Credit card with checkmark</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products -->
+        <div class="section">
+            <h2>🥕 Product Images (200x140px)</h2>
+            <div class="grid">
+                <div class="image-card">
+                    <img src="../assets/frsh2.jpg" alt="Fresh Orange">
+                    <h3>Fresh Orange</h3>
+                    <p>Bright orange citrus</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/fresh3.webp" alt="Fresh Onion">
+                    <h3>Fresh Onion</h3>
+                    <p>Brown layered onion</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/fresh1.jpg" alt="Fresh Cabbage">
+                    <h3>Fresh Cabbage</h3>
+                    <p>Green leafy cabbage</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/fresh6.webp" alt="Fresh Potato">
+                    <h3>Fresh Potato</h3>
+                    <p>Brown oval potato</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/fresh5.jpg" alt="Fresh Avocado">
+                    <h3>Fresh Avocado</h3>
+                    <p>Green avocado with pit</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/fresh4.jpg" alt="Fresh Lemon">
+                    <h3>Fresh Lemon</h3>
+                    <p>Yellow lemon</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Categories -->
+        <div class="section">
+            <h2>📦 Category Images (200x140px)</h2>
+            <div class="grid">
+                <div class="image-card">
+                    <img src="../assets/cat-1.svg" alt="Vegetables">
+                    <h3>Vegetables</h3>
+                    <p>Mixed veggie collection</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/cat-2.svg" alt="Fresh Fruits">
+                    <h3>Fresh Fruits</h3>
+                    <p>Apple, orange, banana</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/cat-3.svg" alt="Dairy Products">
+                    <h3>Dairy Products</h3>
+                    <p>Milk bottle & cheese</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/cat-4.svg" alt="Fresh Meat">
+                    <h3>Fresh Meat</h3>
+                    <p>Meat cuts illustration</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Customer Profiles -->
+        <div class="section">
+            <h2>👥 Customer Profile Images (100x100px)</h2>
+            <div class="grid">
+                <div class="image-card">
+                    <img src="../assets/pic-1.svg" alt="Customer 1">
+                    <h3>Customer Avatar 1</h3>
+                    <p>Orange background</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/pic-2.svg" alt="Customer 2">
+                    <h3>Customer Avatar 2</h3>
+                    <p>Blue background</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/pic-4.svg" alt="Customer 3">
+                    <h3>Customer Avatar 3</h3>
+                    <p>Red background</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Images -->
+        <div class="section">
+            <h2>📝 Blog Header Images (325x190px)</h2>
+            <div class="grid">
+                <div class="image-card">
+                    <img src="../assets/blog-1.svg" alt="Blog 1">
+                    <h3>Organic Vegetables</h3>
+                    <p>Green gradient banner</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/blog-2.svg" alt="Blog 2">
+                    <h3>Healthy Living</h3>
+                    <p>Orange gradient with heart</p>
+                </div>
+                <div class="image-card">
+                    <img src="../assets/blog-3.svg" alt="Blog 3">
+                    <h3>Farm Fresh</h3>
+                    <p>Blue gradient with farm</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Payment -->
+        <div class="section">
+            <h2>💳 Payment Methods (200x40px)</h2>
+            <div class="grid">
+                <div class="image-card">
+                    <img src="../assets/payment.svg" alt="Payment Methods">
+                    <h3>Payment Icons</h3>
+                    <p>Visa, Mastercard, Amex, etc.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <h2>🎉 Start Building Your Website Now!</h2>
+            <p>All these beautiful graphics are ready to use. Just open index.html and start customizing!</p>
+        </div>
+    </div>
+</body>
+</html>

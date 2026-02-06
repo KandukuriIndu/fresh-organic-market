@@ -1,0 +1,18 @@
+<svg width="200" height="140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="140" fill="#E8F5E9"/>
+  <g transform="translate(100,70)">
+    <!-- Carrot -->
+    <path d="M-35,10 L-28,-15 L-22,10 Z" fill="#FF6347"/>
+    <rect x="-30" y="-18" width="2" height="8" fill="#228B22"/>
+    <rect x="-26" y="-18" width="2" height="8" fill="#228B22"/>
+    <!-- Tomato -->
+    <circle cx="0" cy="0" r="15" fill="#DC143C"/>
+    <path d="M-5,-15 L0,-20 L5,-15" fill="#228B22"/>
+    <!-- Broccoli -->
+    <ellipse cx="30" cy="5" rx="12" ry="15" fill="#228B22"/>
+    <ellipse cx="25" cy="-5" rx="8" ry="10" fill="#2E8B57"/>
+    <ellipse cx="35" cy="-5" rx="8" ry="10" fill="#2E8B57"/>
+    <rect x="28" y="15" width="4" height="10" fill="#8B7355"/>
+  </g>
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">Vegetables</text>
+</svg>

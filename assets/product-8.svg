@@ -1,0 +1,14 @@
+<svg width="200" height="140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="140" fill="#FFF8DC"/>
+  <g transform="translate(100,70)">
+    <ellipse cx="0" cy="0" rx="30" ry="38" fill="#FFFF00"/>
+    <ellipse cx="0" cy="0" rx="28" ry="36" fill="#FFFF66"/>
+    <path d="M-18,-20 Q-10,-28 0,-25 Q10,-28 18,-20" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+    <path d="M-15,0 Q-8,-8 0,-5 Q8,-8 15,0" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+    <path d="M-12,20 Q-6,12 0,15 Q6,12 12,20" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+    <ellipse cx="-8" cy="-15" rx="8" ry="10" fill="#FFFFE0" opacity="0.5"/>
+    <circle cx="-2" cy="-38" r="3" fill="#9ACD32"/>
+    <rect x="-2" y="-42" width="4" height="8" fill="#8B4513"/>
+  </g>
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle" font-weight="bold">Fresh Lemon</text>
+</svg>

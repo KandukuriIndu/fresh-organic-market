@@ -1,0 +1,16 @@
+<svg width="200" height="140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="140" fill="#FFF3E0"/>
+  <g transform="translate(100,70)">
+    <!-- Apple -->
+    <circle cx="-25" cy="0" r="15" fill="#DC143C"/>
+    <rect x="-27" y="-18" width="4" height="8" fill="#8B4513"/>
+    <ellipse cx="-24" cy="-16" rx="6" ry="3" fill="#228B22"/>
+    <!-- Orange -->
+    <circle cx="0" cy="5" r="16" fill="#FF8C00"/>
+    <circle cx="-3" cy="0" r="5" fill="#FFA500" opacity="0.6"/>
+    <!-- Banana -->
+    <path d="M18,-5 Q25,-8 32,-5 Q33,5 30,10 Q25,12 20,10 Q17,5 18,-5" fill="#FFD700"/>
+    <path d="M19,-5 Q24,-7 29,-5 Q30,3 27,8 Q24,9 21,8 Q19,3 19,-5" fill="#FFED4E"/>
+  </g>
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">Fresh Fruits</text>
+</svg>

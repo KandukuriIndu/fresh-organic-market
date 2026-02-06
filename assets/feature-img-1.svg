@@ -1,0 +1,10 @@
+<svg width="200" height="140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="140" fill="#228B22"/>
+  <g>
+    <path d="M100,30 L95,45 L80,45 L92,55 L87,70 L100,60 L113,70 L108,55 L120,45 L105,45 Z" fill="#90EE90" stroke="#fff" stroke-width="2"/>
+    <circle cx="70" cy="50" r="8" fill="#90EE90" opacity="0.7"/>
+    <circle cx="130" cy="50" r="8" fill="#90EE90" opacity="0.7"/>
+    <path d="M85,85 Q100,95 115,85" stroke="#fff" stroke-width="3" fill="none"/>
+  </g>
+  <text x="100" y="115" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Fresh & Organic</text>
+</svg>

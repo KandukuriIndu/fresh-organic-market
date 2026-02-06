@@ -1,0 +1,14 @@
+<svg width="200" height="140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="140" fill="#FFF8DC"/>
+  <g transform="translate(100,70)">
+    <circle cx="0" cy="0" r="38" fill="#90EE90"/>
+    <circle cx="0" cy="0" r="35" fill="#98FB98"/>
+    <path d="M-25,-10 Q-15,-20 0,-15 Q15,-20 25,-10" stroke="#228B22" stroke-width="2" fill="none"/>
+    <path d="M-20,5 Q-10,-5 0,0 Q10,-5 20,5" stroke="#228B22" stroke-width="2" fill="none"/>
+    <path d="M-15,20 Q-8,10 0,12 Q8,10 15,20" stroke="#228B22" stroke-width="2" fill="none"/>
+    <ellipse cx="-10" cy="-15" rx="12" ry="15" fill="#7CFC00" opacity="0.4"/>
+    <ellipse cx="10" cy="-15" rx="12" ry="15" fill="#7CFC00" opacity="0.4"/>
+    <ellipse cx="0" cy="8" rx="18" ry="20" fill="#7CFC00" opacity="0.3"/>
+  </g>
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle" font-weight="bold">Fresh Cabbage</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="200" height="40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="40" fill="white"/>
+  <!-- Credit card icons -->
+  <g transform="translate(15,20)">
+    <rect x="0" y="-12" width="35" height="24" fill="#1A1F71" rx="3"/>
+    <rect x="2" y="-10" width="31" height="6" fill="#FF9800"/>
+    <text x="17.5" y="3" font-family="Arial" font-size="8" fill="white" text-anchor="middle">VISA</text>
+  </g>
+  <g transform="translate(65,20)">
+    <rect x="0" y="-12" width="35" height="24" fill="#EB001B" rx="3"/>
+    <circle cx="10" cy="0" r="8" fill="#FF5F00"/>
+    <circle cx="18" cy="0" r="8" fill="#F79E1B"/>
+  </g>
+  <g transform="translate(115,20)">
+    <rect x="0" y="-12" width="35" height="24" fill="#016FD0" rx="3"/>
+    <text x="17.5" y="3" font-family="Arial" font-size="7" fill="white" text-anchor="middle">AMEX</text>
+  </g>
+  <g transform="translate(165,20)">
+    <rect x="0" y="-12" width="35" height="24" fill="#00457C" rx="3"/>
+    <ellipse cx="10" cy="0" rx="6" ry="8" fill="#F79E1B"/>
+    <ellipse cx="18" cy="0" rx="6" ry="8" fill="#EB001B"/>
+  </g>
+</svg>
